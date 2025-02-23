@@ -7,6 +7,8 @@
     <Description>A .NET client for Fortnox</Description>
     <PackageTags>Fortnox</PackageTags>
     <PackageId>Solvation.FortnoxClient</PackageId>
+		<Authors>Patrik Backhuvud</Authors>
+		<Company>Solvation AB</Company>
   </PropertyGroup>
 
 	<ItemGroup>
