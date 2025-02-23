@@ -6,6 +6,7 @@
     <Title>Fortnox Client</Title>
     <Description>A .NET client for Fortnox</Description>
     <PackageTags>Fortnox</PackageTags>
+    <PackageId>Solvation.$(AssemblyName)</PackageId>
   </PropertyGroup>
 
 	<ItemGroup>
