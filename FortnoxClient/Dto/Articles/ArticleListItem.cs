@@ -14,7 +14,7 @@ namespace FortnoxClient.Dto.Articles
             decimal? purchasePrice,
             decimal? salesPrice,
             decimal? quantityInStock,
-            int? reservedQuantity,
+            decimal? reservedQuantity,
             string stockPlace,
             decimal? stockValue,
             string unit,
@@ -66,7 +66,7 @@ namespace FortnoxClient.Dto.Articles
         public decimal? QuantityInStock { get; }
 
         [JsonPropertyName("ReservedQuantity")]
-        public int? ReservedQuantity { get; }
+        public decimal? ReservedQuantity { get; }
 
         [JsonPropertyName("StockPlace")]
         public string StockPlace { get; } // string[0..100] characters
