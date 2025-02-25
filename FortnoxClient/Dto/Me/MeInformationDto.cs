@@ -4,6 +4,15 @@ namespace FortnoxClient.Dto.Me
 {
     public class MeInformationDto
     {
+        public MeInformationDto(string email, string id, string locale, string name, bool sysAdmin)
+        {
+            Email = email;
+            Id = id;
+            Locale = locale;
+            Name = name;
+            SysAdmin = sysAdmin;
+        }
+
         [JsonPropertyName("Email")]
         public string Email { get; }
 

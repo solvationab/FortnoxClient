@@ -1,0 +1,15 @@
+﻿{
+  "CompanyInformation": {
+    "Address": "AnkVägen 5",
+    "City": "Uppsala",
+    "CountryCode": "SE",
+    "DatabaseNumber": 434847,
+    "CompanyName": "Margarinbolaget AB",
+    "OrganizationNumber": "556026-9986",
+    "VisitAddress": "Kvackgatan 7",
+    "VisitCity": "Oslo",
+    "VisitCountryCode": "NO",
+    "VisitZipCode": "75450",
+    "ZipCode": "75451"
+  }
+}
