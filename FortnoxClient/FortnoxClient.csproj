@@ -39,4 +39,11 @@
 		<!-- <PackageValidationBaselineVersion>1.0.0</PackageValidationBaselineVersion> -->
 	</PropertyGroup>
 
+	<PropertyGroup>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+
+		<!-- If all members are not documented, you can disable the compiler warnings -->
+		<NoWarn>$(NoWarn);CS1591</NoWarn>
+	</PropertyGroup>
+
 </Project>
