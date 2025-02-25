@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Fortnox Client</Title>
     <Description>A .NET client for Fortnox</Description>
     <PackageTags>Fortnox</PackageTags>
     <PackageId>Solvation.FortnoxClient</PackageId>
 		<Authors>Patrik Backhuvud</Authors>
 		<Company>Solvation AB</Company>
+	  <MinVerTagPrefix>v</MinVerTagPrefix>
   </PropertyGroup>
 
 	<ItemGroup>
