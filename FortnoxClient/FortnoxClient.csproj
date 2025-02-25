@@ -12,7 +12,7 @@
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <PackageIcon>icon.png</PackageIcon>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
-	  <PackageProjectUrl>https://www.solvation.se/NuGets/FortnoxClient</PackageProjectUrl>
+	  <PackageProjectUrl>https://github.com/solvationab/FortnoxClient</PackageProjectUrl>
   </PropertyGroup>
 
 	<ItemGroup>
