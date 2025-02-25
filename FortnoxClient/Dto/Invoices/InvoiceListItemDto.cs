@@ -5,6 +5,65 @@ namespace FortnoxClient.Dto.Invoices
 {
     public class InvoiceListItemDto
     {
+        public InvoiceListItemDto(
+            string url,
+            double balance,
+            bool booked,
+            bool cancelled,
+            string costCenter,
+            string currency,
+            double currencyRate,
+            double currencyUnit,
+            string customerName,
+            string customerNumber,
+            string documentNumber,
+            DateTime dueDate,
+            string externalInvoiceReference1,
+            string externalInvoiceReference2,
+            DateTime? finalPayDate,
+            DateTime invoiceDate,
+            InvoiceTypesDto invoiceType,
+            bool noxFinans,
+            string ocr,
+            string project,
+            bool sent,
+            string termsOfPayment,
+            double total,
+            int? voucherNumber,
+            string voucherSeries,
+            int? voucherYear,
+            string wayOfDelivery
+            )
+        {
+            Url = url;
+            Balance = balance;
+            Booked = booked;
+            Cancelled = cancelled;
+            CostCenter = costCenter;
+            Currency = currency;
+            CurrencyRate = currencyRate;
+            CurrencyUnit = currencyUnit;
+            CustomerName = customerName;
+            CustomerNumber = customerNumber;
+            DocumentNumber = documentNumber;
+            DueDate = dueDate;
+            ExternalInvoiceReference1 = externalInvoiceReference1;
+            ExternalInvoiceReference2 = externalInvoiceReference2;
+            FinalPayDate = finalPayDate;
+            InvoiceDate = invoiceDate;
+            InvoiceType = invoiceType;
+            NoxFinans = noxFinans;
+            OCR = ocr;
+            Project = project;
+            Sent = sent;
+            TermsOfPayment = termsOfPayment;
+            Total = total;
+            VoucherNumber = voucherNumber;
+            VoucherSeries = voucherSeries;
+            VoucherYear = voucherYear;
+            WayOfDelivery = wayOfDelivery;
+        }
+
         [JsonPropertyName("@url")]
         public string Url { get; } 
 

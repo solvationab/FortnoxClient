@@ -242,8 +242,8 @@ namespace FortnoxClient.Dto.Invoices
             TimeBasisReference = timeBasisReference;
             Total = total;
             TotalToPay = totalToPay;
-            TotalVAT = totalVat;
-            VATIncluded = vatIncluded;
+            TotalVat = totalVat;
+            VatIncluded = vatIncluded;
             VoucherNumber = voucherNumber;
             VoucherSeries = voucherSeries;
             VoucherYear = voucherYear;
@@ -492,10 +492,10 @@ namespace FortnoxClient.Dto.Invoices
         public double TotalToPay { get; }
         
         [JsonPropertyName("TotalVAT")]
-        public double TotalVAT { get; }
+        public double TotalVat { get; }
         
         [JsonPropertyName("VATIncluded")]
-        public bool VATIncluded { get; }
+        public bool VatIncluded { get; }
         
         [JsonPropertyName("VoucherNumber")]
         public int? VoucherNumber { get; }
